@@ -1,0 +1,7 @@
+# One direct, permitted download URL per line.
+# Pages/search results/login-gated library URLs are intentionally skipped by
+# backend/scripts/download_to_grabcad_dump.py unless they resolve to real files.
+#
+# Examples:
+# https://example.edu/open-cad/gearbox_assembly.zip
+# https://manufacturer.example/downloads/bracket_with_fasteners.step

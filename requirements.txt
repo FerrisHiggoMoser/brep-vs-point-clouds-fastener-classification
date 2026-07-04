@@ -1,0 +1,9 @@
+pythonocc-core>=7.8.0
+pygltflib>=1.16.0
+trimesh>=4.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+pydantic>=2.0
+networkx>=3.0
+usd-core>=24.11
+pytest>=7.0

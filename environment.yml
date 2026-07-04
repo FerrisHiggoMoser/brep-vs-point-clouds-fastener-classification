@@ -1,0 +1,21 @@
+name: step-vr-step
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pythonocc-core>=7.8.0
+  - numpy
+  - scipy
+  - networkx>=3.0
+  - pytorch::pytorch>=2.0
+  - pytorch::torchvision
+  - pip:
+    - pygltflib
+    - trimesh
+    - pydantic>=2.0
+    - pytorch-lightning>=2.0
+    - open3d>=0.17
+    - tensorboard>=2.14
+    - pytest>=7.0
+    - pytest-cov

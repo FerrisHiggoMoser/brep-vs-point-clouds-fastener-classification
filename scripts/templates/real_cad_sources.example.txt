@@ -1,0 +1,7 @@
+# One direct, permitted archive or CAD URL per line.
+# The harvester will not crawl a CAD library for you; it only downloads
+# URLs you provide and are allowed to automate.
+#
+# Examples:
+# https://example.edu/open-cad/gearbox_assembly.zip
+# https://manufacturer.example/downloads/bracket_with_fasteners.step

@@ -1,0 +1,59 @@
+# Priority search list for finding direct/permitted CAD archive URLs.
+# Do not use this as permission to crawl GrabCAD Library pages.
+
+[highest_priority_rivet_dense]
+aircraft fuselage
+aircraft wing assembly
+riveted sheet metal
+aluminum boat hull
+truss riveted
+bus body frame
+trailer body
+riveted bracket
+
+[high_priority_nut_dense]
+engine assembly
+gearbox assembly
+bench vise
+pipe flange assembly
+suspension bushing
+trailer hitch assembly
+clamp assembly
+skateboard truck
+
+[high_priority_pin_dense]
+hinge assembly
+knuckle joint
+clevis pin
+door latch mechanism
+excavator arm joint
+pin and yoke
+chain link assembly
+cotter pin assembly
+
+[medium_retaining_rings]
+bearing housing assembly
+shaft assembly with bearings
+drill chuck assembly
+gearbox internals
+
+[medium_threaded_rods_studs]
+turnbuckle assembly
+tie rod adjustable
+engine head stud
+clevis turnbuckle
+plumbing manifold
+
+[medium_anchors]
+anchor bolt
+eye bolt assembly
+lifting eye
+expansion anchor
+bridge anchor
+
+[skip]
+plain screw
+plain bolt
+tutorial first design
+3d printed art
+decorative model
