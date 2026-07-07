@@ -27,7 +27,7 @@ retaining-rings, rivets, screws, spacers, threaded-inserts, threaded-rods, washe
 |---|---|---|---|---|
 | `models/bf_subtype13_best.ckpt` (v1) | Lightning | 13 | McMaster only (~10k) | v1 baseline; PADDLE 3.1% |
 | `models/bf_subtype13_v{2,3,4,5}.ckpt` | dict | 13 | progressive (see table g) | v2–v5 progression (journal-only McMaster numbers — D9) |
-| `models/bf_subtype13_v6.ckpt` | dict | 13 | ~67k, ~30% real-CAD | **BF v6** 89.27% / PADDLE 64.0% (bf_v6_run/eval_summary.json) |
+| `models/bf_subtype13_v6.ckpt` | dict | 13 | ~67k, ~39% real-CAD | **BF v6** 89.27% / PADDLE 64.0% (bf_v6_run/eval_summary.json) |
 | `pn_v6_run/checkpoints/best-epoch=53-val_loss=0.1429.pth` | pth | 13 | v6 PC, ~46,948 train (81% of BF) real normals | **PN++ v6** 95.21% / PADDLE 84.86% (pn_v6_run/eval_summary.json) |
 
 ### Pretrain checkpoints (logs/)

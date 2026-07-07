@@ -2,7 +2,7 @@
 
 ## g.1 — v6 training-set composition (CSV: [g_v6_training_composition.csv](g_v6_training_composition.csv))
 
-~66,941 samples across train/val/test; real-CAD ≈ 30% (vs v1's 0%, v4's 12%). Source: journal
+~66,941 samples across train/val/test; real-CAD ≈ 39% (Fusion + GrabCAD; vs v1's 0%, v4's 12%). Source: journal
 2026-05-21→05-25.
 
 | Source | Approx count | Modeling DNA |
@@ -13,7 +13,7 @@
 | Fusion 360 Assembly | 4,443 | 755 unique Fusion designers, real threads |
 | GrabCAD round #1 | 2,629 | hand-curated GrabCAD downloads |
 | GrabCAD round #2 | 18,781 | broader GrabCAD via dump-folder pipeline |
-| **TOTAL (approx)** | **66,941** | ~30% real-CAD |
+| **TOTAL (approx)** | **66,941** | ~39% real-CAD (Fusion + GrabCAD) |
 
 Other datasets used upstream: **MCB-A** (Kim et al. ECCV 2020, 58,696 OBJ, 68 classes — PN++
 pretrain); **Fusion 360 Gallery s2.0.0** (35,680 STEP, 8 per-face seg classes — BF pretrain);
