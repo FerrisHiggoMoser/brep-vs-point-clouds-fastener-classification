@@ -1,0 +1,6 @@
+task,family,test_n,PN++,BF,winner,delta_pp,p_value,note
+Binary fastener-vs-not,I McMaster,558,0.942652329749104,0.899641577060932,PN++,4.3010752688172005,0.005977268092463427,matched data/compute
+13-class subtype (CORRECTED),I McMaster,558,0.9301075268817204,0.899641577060932,tie (PN++ nominal),3.046594982078843,0.057584115072875815,p>0.05 -> statistical tie; real normals
+13-class subtype (FLAWED),I McMaster,558,0.7562724014336918,0.899641577060932,BF (ARTIFACT),-14.336917562724016,4.245502754895279e-12,RETRACTED - PN++ normals bug
+13-class v6 in-distribution,II v6,5827,0.9533207482409474,0.8877638579028659,PN++,6.55,6.399332570184805e-58,"shared samples, ~81% data for PN++"
+13-class v6 PADDLE cross-tool,II v6,350,0.8485714285714285,0.64,PN++,20.86,2.6616522623151445e-13,cross-CAD-tool holdout

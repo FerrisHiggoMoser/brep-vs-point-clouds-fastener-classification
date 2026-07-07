@@ -1,0 +1,7 @@
+source,n,PN++_acc,BF_acc,gap_pp
+mcmaster,332,0.997,0.934,6.3
+synth_no_threads,1170,0.897,0.865,3.2
+synth_remixed,3192,0.993,0.94,5.3
+fusion,444,0.806,0.678,12.8
+grabcad,655,0.942,0.808,13.4
+realcad,34,0.853,0.618,23.5

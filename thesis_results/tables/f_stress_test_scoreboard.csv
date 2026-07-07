@@ -1,0 +1,13 @@
+scenario,parts,matched,detect_time_s
+1 Scale 100-bolt grid,101,100/100,0.17
+2 Angled bolts 0-8deg,17,16/16,0.02
+3 Deep stack (5 plates),6,5 arcs order 0-4,0.01
+4 Adversarial 12+6 decoys,19,4/6 decoys rejected,0.02
+5 Mega 500-bolt grid,501,500/500,2.05
+6 Extreme tilt 0-30deg,13,7/12 (cos>0.95 boundary),0.01
+7 Bolt-nut sandwich,25,24 arcs,0.02
+8 Orthogonal axes,8,7/7,0.01
+9 Real SHCS internal socket,7,6/6 self-loop guard,0.01
+10 M1.6/M2 micro-fasteners,9,8/8,0.01
+11 Curved host hub,5,4/4,0.01
+12 Huge 1000-bolt grid,1001,1000/1000,7.32

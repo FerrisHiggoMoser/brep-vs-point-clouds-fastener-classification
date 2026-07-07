@@ -1,0 +1,7 @@
+version,training_data,class_weight,best_val_acc,mcmaster_test,PADDLE_iso350
+v1,McMaster only (~10k),unknown(pre-existing),0.865,0.916,0.031
+v2,+synth_no_threads +synth_remixed (~52k),sqrt+WeightedSampler,0.965,0.982,0.009
+v3,+380 real_cad,none,0.931,0.961,0.109
+v4,+4443 Fusion360 Assembly,none,0.897,0.952,0.523
+v5,+18781 GrabCAD,sqrt,0.552,0.419,0.52
+v6,same as v5,none,0.904,0.934,0.64

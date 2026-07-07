@@ -1,0 +1,4 @@
+test_set,stage1_claimed_n,stage1_acc,stage2_n,stage2_v6_acc,stage2_topk_acc
+v6test,2476,0.5521,3202,0.8838,0.7211
+PADDLE iso350,269,0.8141,143,0.4406,0.6853
+satellite,116,1.0,60,0.1333,0.0

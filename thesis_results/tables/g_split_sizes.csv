@@ -1,0 +1,24 @@
+dataset,split,fastener_or_detail,count,source_artifact
+MCB-A (PN++ pretrain),train,39822,39822,2026-04-21/22
+MCB-A,val,7157,7157,2026-04-21/22
+MCB-A,test,11716,11716,logs/pointnet2_mcb/eval/summary.json
+GrabCAD binary,train,161 fast / 1676 non,1837,2026-04-22
+GrabCAD binary,val,34 fast / 359 non,393,2026-04-22
+GrabCAD binary,test,35 fast / 360 non,395,logs/pointnet2_finetune/eval
+Fusion360 Gallery (BF pretrain),all,"35680 parts, 8 seg classes",35680,2026-04-23
+McMaster binary PN++ baseline,train,2368 fast / 2833 non,5201,2026-05-09
+McMaster binary PN++ baseline,val,291 fast / 378 non,669,2026-05-09
+McMaster binary PN++ baseline,test,301 fast / 348 non,649,2026-05-09
+McMaster BRep (MAX_FACES=600),train,2283 fast / 2277 non,4560,2026-05-09
+McMaster BRep,val,278 fast / 313 non,591,2026-05-09
+McMaster BRep,test,290 fast / 269 non,559,2026-05-09
+McMaster matched (shared),test,289 fast / 269 non,558,full_analysis.json
+McMaster subtype13,train,13 classes,4557,relabel_manifest.subtype13.json
+McMaster subtype13,val,13 classes,590,relabel_manifest.subtype13.json
+McMaster subtype13,test,13 classes,558,full_analysis_subtype13_normals.json
+v6 BF (max_faces=300),train,13 classes,58188,pn_v6_run/eval_summary.json
+v6 BF,val,13 classes,7302,pn_v6_run/eval_summary.json
+v6 BF,test,13 classes,7286,bf_v6_run/eval_summary.json
+v6 PN++ (retained),train,13 classes,46948,pn_v6_run/eval_summary.json
+v6 PN++,val,13 classes,5904,pn_v6_run/eval_summary.json
+v6 PN++,test,13 classes,5850,pn_v6_run/eval_summary.json

@@ -1,0 +1,5 @@
+config,all_named_n176,iso_din_only_n112,journal_761_IOBC_n64
+Rules,0.6591,1.0,0.0625
+v6 ML,0.358,0.473,0.156
+Hybrid,0.7045,1.0,0.188
+Hybrid+topk,0.6591,1.0,0.0625

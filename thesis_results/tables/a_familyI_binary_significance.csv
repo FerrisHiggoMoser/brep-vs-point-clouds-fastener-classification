@@ -1,0 +1,5 @@
+comparison,test,statistic,p_value,delta_acc_pp,ci95_low_pp,ci95_high_pp,note
+"PN++ vs BF (exact, per-sample)",McNemar cc,chi2=7.557,0.005977268092463427,4.3010752688172005,1.4336917562724039,7.168458781362008,PN-only=47 BF-only=23 both_correct=479 both_wrong=9
+Rules vs BF-subtype13-binary (exact),McNemar cc,chi2=68.531,1.2491756668258426e-16,-22.580645161290324,-27.419354838709676,-17.562724014336915,only per-sample ML preds on disk
+Rules vs PN++ matched (bound),McNemar bound,p_worst<=,5.779096468997452e-27,-29.21146953405018,,,PN++ per-sample preds never saved -> bound
+Rules vs BF Plan C' (bound),McNemar bound,p_worst<=,3.0258333607447605e-18,-24.91039426523298,,,BF Plan C' per-sample preds never saved -> bound

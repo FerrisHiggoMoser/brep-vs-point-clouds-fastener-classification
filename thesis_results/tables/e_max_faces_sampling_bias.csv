@@ -1,0 +1,7 @@
+split_class,PC_n,BRep_n,dropped_pct
+train/fastener,2368,2283,3.6
+train/non_fastener,2833,2277,19.6
+val/fastener,291,278,4.5
+val/non_fastener,378,313,17.2
+test/fastener,301,290,3.7
+test/non_fastener,348,269,22.7

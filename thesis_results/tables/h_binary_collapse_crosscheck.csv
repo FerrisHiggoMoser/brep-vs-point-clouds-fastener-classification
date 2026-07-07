@@ -1,0 +1,6 @@
+source_model_task,binary_collapse_acc,dedicated_binary_acc,delta_pp,note
+PN++ subtype13 CORRECTED,0.9408602150537635,0.942652329749104,-0.17921146953404632,corrected: collapse ~ dedicated
+BF subtype13,0.931899641577061,0.899641577060932,3.2258064516129004,multitask helps BF binary
+PN++ subtype13 FLAWED,0.8064516129032258,0.942652329749104,-13.62007168458782,artifact of normals bug
+PN++ v6 subtype13,0.9953846153846154,,,binary collapse v6 test n=5850
+BF v6 subtype13,0.9862750480373319,,,binary collapse v6 test n=7286

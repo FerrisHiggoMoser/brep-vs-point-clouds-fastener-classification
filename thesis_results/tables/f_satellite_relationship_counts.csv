@@ -1,0 +1,9 @@
+metric,value,source
+screwedInto arcs (ISIS),161,2026-05-19 _infer_fastener_relationships
+contained_in arcs (ISIS),592,2026-05-19 _infer_housing_relationships
+classified fasteners (ISIS),244,2026-05-19 eval_satellite.py
+fastener_labeling/files contained_in,522,2026-05-19 eval_detection.py
+fastener_labeling/files screwedInto,69,2026-05-19 eval_detection.py
+Day-4 PN++ zero-shot satellite F1,0.524,2026-04-22 Stage2 isispace (551 GT parts)
+Day-4 PN++ satellite precision,0.717,2026-04-22
+Day-4 PN++ satellite recall,0.413,2026-04-22
